@@ -9,7 +9,7 @@ getNotes().forEach((note) => {
 function createNoteEl(id, content) {
   const element = document.createElement("textarea");
   element.classList.add("note");
-  element.placeholder = "Empty Note";
+  element.placeholder = "Empty Note"; 
   element.value = content;
 
   element.addEventListener("dblclick", () => {
